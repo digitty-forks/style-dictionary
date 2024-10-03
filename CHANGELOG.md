@@ -1,5 +1,20 @@
 # Changelog
 
+## 4.1.3
+
+### Patch Changes
+
+- 9376247: Make `defaultMessage` param in FileHeader type optional.
+- 43ccb42: (#1305): fix reference sorting in `sortByReference` function for DTCG token format, ensuring token references are declared after their targets
+- 26728b9: Fix `filterTokens` utility to deal with random metadata properties throughout token groups, without throwing errors.
+
+## 4.1.2
+
+### Patch Changes
+
+- e9cce6a: Reuse static hooks in the constructor to set instance hooks prop, to avoid discarding built-in hooks overwrites by consumers.
+- b48d0e9: Add missing type interfaces, most notably the ExpandConfig types.
+
 ## 4.1.1
 
 ### Patch Changes
