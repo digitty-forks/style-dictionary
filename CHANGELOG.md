@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.5.3
+
+### Patch Changes
+
+- 863685d: Limit nested composite token expansion to the configured type filters.
+
 ## 5.5.2
 
 ### Patch Changes
